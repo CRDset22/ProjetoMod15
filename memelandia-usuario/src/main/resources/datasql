@@ -1,0 +1,9 @@
+INSERT
+INTO
+    usuario (id ,nome, email, data_cadastro)
+VALUES
+  (nextval('sequence_usuario'),'João da Silva', 'joao@email.com', '2023-11-22'),
+  (nextval('sequence_usuario'),'Monica Souza', 'maria@email.com', '2023-12-05'),
+  (nextval('sequence_usuario'),'Pedro Gomes', 'pedro@email.com', '2024-01-10'),
+  (nextval('sequence_usuario'),'Ana Oliveira', 'ana@email.com', '2024-02-15'),
+  (nextval('sequence_usuario'),'Carlos Santos', 'carlos@email.com', '2024-03-20');
